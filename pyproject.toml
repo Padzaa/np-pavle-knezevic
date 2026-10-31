@@ -1,0 +1,20 @@
+[project]
+name = "np-pavle-knezevic"
+version = "0.1.0"
+description = "Napredno programiranje (FIST4NP), Univerzitet Donja Gorica"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = ["ruff>=0.17", "pytest>=9.0"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "N"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
