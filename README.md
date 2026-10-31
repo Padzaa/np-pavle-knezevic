@@ -22,6 +22,11 @@ ruff format --check . # provjera formatiranja
 pytest                # testovi
 ```
 
+## Sadržaj
+
+- [Zadatak 1: `prosjecna_cijena`](#zadatak-1-prosjecna_cijena)
+- [Nedjelja 2: Refaktoring klase sa više odgovornosti](nedjelja2/README.md)
+
 ## Zadatak 1: `prosjecna_cijena`
 
 Funkcija se nalazi u [`cijene.py`](cijene.py), a testovi u [`tests/test_cijene.py`](tests/test_cijene.py).
